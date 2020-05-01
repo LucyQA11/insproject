@@ -23,7 +23,7 @@ public class CustomerDAO  implements DAO <Customer>{
 	private String password;
 	
 	public CustomerDAO(String username, String password) {
-		this.jdbcConnectionURL ="jdbc:mysql://34.89.103.5/Bags";
+		this.jdbcConnectionURL ="jdbc:mysql://10.9.224.3/Bags";
 		this.username = username;
 		this.password = password;
 	} 

@@ -21,7 +21,7 @@ public class OrderDAO implements DAO<Orders>{
 	private String password;
 	
 	public OrderDAO(String username, String password) {
-		this.jdbcConnectionURL ="jdbc:mysql://34.89.103.5/Bags";
+		this.jdbcConnectionURL ="jdbc:mysql://10.9.224.3/Bags";
 		this.username = username;
 		this.password = password;
 	}
