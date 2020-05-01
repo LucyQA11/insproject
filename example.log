@@ -1,0 +1,781 @@
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.OrdersController - Please enter your customer ID
+INFO main controller.OrdersController - Please enter the item ID
+INFO main controller.OrdersController - Please enter the quantity of the item you would like
+INFO main controller.OrdersController - Please enter the price
+DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@311d617d
+ERROR main dao.CustomerDAO - Cannot add or update a child row: a foreign key constraint fails (`bagstest`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`CustomerID`) REFERENCES `customers` (`CustomerID`))
+INFO main controller.OrdersController - Order created
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.OrdersController - Please enter your customer ID
+INFO main controller.OrdersController - Please enter the item ID
+INFO main controller.OrdersController - Please enter the quantity of the item you would like
+INFO main controller.OrdersController - Please enter the price
+DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@7c53a9eb
+ERROR main dao.CustomerDAO - Cannot add or update a child row: a foreign key constraint fails (`bagstest`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`CustomerID`) REFERENCES `customers` (`CustomerID`))
+INFO main controller.OrdersController - Order created
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.OrdersController - Enter the ID of the order you would like to update
+INFO main controller.OrdersController - Please enter new quantity:
+DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@311d617d
+ERROR main dao.CustomerDAO - Illegal operation on empty result set.
+INFO main controller.OrdersController - Order updated.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.OrdersController - Enter the ID of the order you would like to update
+INFO main controller.OrdersController - Please enter new quantity:
+DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@16f65612
+ERROR main dao.CustomerDAO - Column 'OrderID' not found.
+INFO main controller.OrdersController - Order updated.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.OrdersController - Enter the ID of the order you would like to update
+INFO main controller.OrdersController - Please enter new quantity:
+DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@16f65612
+ERROR main dao.CustomerDAO - Column 'OrderID' not found.
+INFO main controller.OrdersController - Order updated.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.OrdersController - Enter the ID of the order you would like to update
+INFO main controller.OrdersController - Please enter new quantity:
+DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@16f65612
+ERROR main dao.CustomerDAO - Illegal operation on empty result set.
+INFO main controller.OrdersController - Order updated.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.OrdersController - Enter the ID of the order you would like to update
+INFO main controller.OrdersController - Please enter new quantity:
+DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@16f65612
+ERROR main dao.CustomerDAO - Illegal operation on empty result set.
+INFO main controller.OrdersController - Order updated.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.OrdersController - Enter the ID of the order you would like to update
+INFO main controller.OrdersController - Please enter new quantity:
+DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@16f65612
+ERROR main dao.CustomerDAO - Illegal operation on empty result set.
+INFO main controller.OrdersController - Order updated.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.OrdersController - Enter the ID of the order you would like to update
+INFO main controller.OrdersController - Please enter new quantity:
+DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@16f65612
+ERROR main dao.CustomerDAO - Illegal operation on empty result set.
+INFO main controller.OrdersController - Order updated.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@5e91993f
+ERROR main dao.CustomerDAO - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+ERROR main domain.Domain - Invalid selection please try again
+ERROR main domain.Domain - Invalid selection please try again
+ERROR main domain.Domain - Invalid selection please try again
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@5e91993f
+ERROR main dao.CustomerDAO - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main controller.CustomerController - [id:7 Name: lucy Address: 64 zoo drive Email: kshggbrjb, id:8 Name: lucy Address: 64 zoo ln Email: ljhk@kgj.com, id:9 Name: bob Address: 67 ghd drive Email: ghd@drive.com, id:10 Name: lucy wells Address: 23 dumby lane Email: doom@doom.com, id:12 Name: bob john Address: jgnkdnn Email: ngndm,s, id:13 Name: jane doe Address: 23 doe lane Email: doe@doe.com, id:14 Name: rachel jounges Address: 12 swerse street Email: rjounges@erd.com, id:15 Name: darlene smithson Address: 100 wood drive Email: darlene100@darcorp.com]
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@379619aa
+ERROR main dao.CustomerDAO - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+ERROR main domain.Domain - Invalid selection please try again
+ERROR main domain.Domain - Invalid selection please try again
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.CustomerController - Please enter your name
+INFO main controller.CustomerController - Please enter your address
+INFO main controller.CustomerController - Please enter your email address
+DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@3830f1c0
+ERROR main dao.CustomerDAO - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+ERROR main domain.Domain - Invalid selection please try again
+ERROR main domain.Domain - Invalid selection please try again
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - Username: 
+INFO main scanner.InventorySystem - Password: 
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+DEBUG main scanner.InventorySystem - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+DEBUG main scanner.InventorySystem - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+DEBUG main scanner.InventorySystem - java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.Util.getInstance(Util.java:408)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:898)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:887)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.SQLError.createSQLException(SQLError.java:861)
+DEBUG main scanner.InventorySystem - com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:331)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
+DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
+DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: 'java.lang.NumberFormatException: For input string: "mysql:"'.
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.ItemsController - [id:1 Name: Kimmy Clutchbag Quantity: 70 Price: 25.0, id:2 Name: Pheobo Backpack Quantity: 100 Price: 45.0, id:3 Name: Evie Totebag Quantity: 150 Price: 18.0, id:4 Name: Kayla Sidebag Quantity: 55 Price: 10.0, id:5 Name: RayRay Purse Quantity: 200 Price: 14.0]
+INFO main controller.ItemsController - [id:1 Name: Kimmy Clutchbag Quantity: 70 Price: 25.0, id:2 Name: Pheobo Backpack Quantity: 100 Price: 45.0, id:3 Name: Evie Totebag Quantity: 150 Price: 18.0, id:4 Name: Kayla Sidebag Quantity: 55 Price: 10.0, id:5 Name: RayRay Purse Quantity: 200 Price: 14.0]
+INFO main controller.ItemsController - [id:1 Name: Kimmy Clutchbag Quantity: 70 Price: 25.0, id:2 Name: Pheobo Backpack Quantity: 100 Price: 45.0, id:3 Name: Evie Totebag Quantity: 150 Price: 18.0, id:4 Name: Kayla Sidebag Quantity: 55 Price: 10.0, id:5 Name: RayRay Purse Quantity: 200 Price: 14.0]
+INFO main controller.ItemsController - [id:1 Name: Kimmy Clutchbag Quantity: 70 Price: 25.0, id:2 Name: Pheobo Backpack Quantity: 100 Price: 45.0, id:3 Name: Evie Totebag Quantity: 150 Price: 18.0, id:4 Name: Kayla Sidebag Quantity: 55 Price: 10.0, id:5 Name: RayRay Purse Quantity: 200 Price: 14.0]
+INFO main controller.ItemsController - [id:1 Name: Kimmy Clutchbag Quantity: 70 Price: 25.0, id:2 Name: Pheobo Backpack Quantity: 100 Price: 45.0, id:3 Name: Evie Totebag Quantity: 150 Price: 18.0, id:4 Name: Kayla Sidebag Quantity: 55 Price: 10.0, id:5 Name: RayRay Purse Quantity: 200 Price: 14.0]
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
