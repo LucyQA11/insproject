@@ -1,12 +1,20 @@
 INFO main scanner.InventorySystem - Username: 
 INFO main scanner.InventorySystem - Password: 
-DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:689)
+DEBUG main scanner.InventorySystem - com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+DEBUG main scanner.InventorySystem - com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+DEBUG main scanner.InventorySystem - com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+DEBUG main scanner.InventorySystem - com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+DEBUG main scanner.InventorySystem - com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+DEBUG main scanner.InventorySystem - com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:79)
+DEBUG main scanner.InventorySystem - com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:131)
+DEBUG main scanner.InventorySystem - com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:220)
+DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:664)
 DEBUG main scanner.InventorySystem - java.sql.DriverManager.getConnection(DriverManager.java:247)
 DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:200)
 DEBUG main scanner.InventorySystem - scanner.InventorySystem.init(InventorySystem.java:178)
 DEBUG main scanner.InventorySystem - scanner.InventorySystem.inventory(InventorySystem.java:35)
 DEBUG main scanner.InventorySystem - scanner.Runner.main(Runner.java:10)
-ERROR main scanner.InventorySystem - No suitable driver found for jdbc:mysql://jdbc:mysql://34.89.103.5/Bags/
+ERROR main scanner.InventorySystem - Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Malformed database URL, failed to parse the main URL sections.
 INFO main scanner.InventorySystem - Where would you like to go?
 INFO main domain.Domain - CUSTOMER
 INFO main domain.Domain - ITEMS
@@ -19,8 +27,30 @@ INFO main controller.Actions - UPDATE: To update an item in the database
 INFO main controller.Actions - DELETE: To delete an item in the database
 INFO main controller.Actions - CALCULATE: To calculate the cost of an order
 INFO main controller.Actions - RETURN: To return to main menu
-DEBUG main dao.CustomerDAO - [Ljava.lang.StackTraceElement;@cc34f4d
-ERROR main dao.CustomerDAO - No suitable driver found for jdbc:mysql://34.89.103.5/Bags
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main scanner.InventorySystem - Where would you like to go?
+INFO main domain.Domain - CUSTOMER
+INFO main domain.Domain - ITEMS
+INFO main domain.Domain - ORDERS
+INFO main domain.Domain - STOP
+INFO main scanner.InventorySystem - What would you like to do?
+INFO main controller.Actions - CREATE: To create a new item in the database 
+INFO main controller.Actions - READ: To view all items in a table
+INFO main controller.Actions - UPDATE: To update an item in the database
+INFO main controller.Actions - DELETE: To delete an item in the database
+INFO main controller.Actions - CALCULATE: To calculate the cost of an order
+INFO main controller.Actions - RETURN: To return to main menu
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
+INFO main controller.CustomerController - [id:1 Name: Monica Tribbiani Address: 64 Zoo Lane Email: mtribbiani@rando.com, id:2 Name: Yvonne Green Address: 93 Waverly Road Email: greeny@rando.com, id:3 Name: Bob Smith Address: 1 Adele Drive Email: bsmith@rando.com, id:4 Name: Rebecca Ryan Address: 2 Woodcock Hill Email: rryan24@rando.com, id:5 Name: Tom Young Address: 7A Beagle Street Email: youngt17@rando.com, id:6 Name: Carol Tinni Address: 25 Driver Street Email: tinnic@rando.com]
 INFO main scanner.InventorySystem - Where would you like to go?
 INFO main domain.Domain - CUSTOMER
 INFO main domain.Domain - ITEMS

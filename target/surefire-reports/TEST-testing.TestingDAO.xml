@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="testing.TestingDAO" time="0.021" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="testing.TestingDAO" time="0.006" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="13.0.2+8"/>
@@ -58,12 +58,12 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
   <testcase classname="testing.TestingDAO" name="viewOrders" time="0.001"/>
-  <testcase classname="testing.TestingDAO" name="viewItems" time="0.001"/>
-  <testcase classname="testing.TestingDAO" name="updateOrders" time="0.002"/>
-  <testcase classname="testing.TestingDAO" name="updateItems" time="0.003"/>
+  <testcase classname="testing.TestingDAO" name="viewItems" time="0"/>
+  <testcase classname="testing.TestingDAO" name="updateOrders" time="0.001"/>
+  <testcase classname="testing.TestingDAO" name="updateItems" time="0"/>
   <testcase classname="testing.TestingDAO" name="createItems" time="0"/>
   <testcase classname="testing.TestingDAO" name="viewCustomer" time="0.001"/>
-  <testcase classname="testing.TestingDAO" name="createOrders" time="0.001"/>
-  <testcase classname="testing.TestingDAO" name="updateCustomer" time="0.001"/>
-  <testcase classname="testing.TestingDAO" name="createCustomer" time="0.011"/>
+  <testcase classname="testing.TestingDAO" name="createOrders" time="0"/>
+  <testcase classname="testing.TestingDAO" name="updateCustomer" time="0.002"/>
+  <testcase classname="testing.TestingDAO" name="createCustomer" time="0.001"/>
 </testsuite>
